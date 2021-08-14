@@ -95,3 +95,11 @@ body{
     border: 3px solid #ff3a95;
     border-radius: 10px;
 }
+@media screen and (max-width: 500px) {
+    .input, #list li{
+        width: 90%;
+    }
+    .info ul{
+        font-size: 15px;
+    }
+}
